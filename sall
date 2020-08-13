@@ -1,0 +1,40 @@
+#!/bin/sh
+
+export dir=$(pwd)
+
+echo "This is the starting directory" $dir
+
+sall()
+{
+
+	echo "This is the first parameter value" $1
+
+	cd $dir
+
+	echo "This is the parent directory" $(pwd)
+
+	cd $1
+
+	echo "This is the current directory" $(pwd)
+
+	git stage .
+
+}
+
+sall "../app"
+
+sall "../app-ca2"
+
+sall "../app-cidadedecuritiba"
+
+sall "../app-core"
+
+sall "../app-veriwell"
+
+sall "../design"
+
+sall "../game"
+
+sall "../nodeapp"
+
+sall "../third"

@@ -1,0 +1,40 @@
+#!/bin/sh
+
+export dir=$(pwd)
+
+echo "This is the starting directory" $dir
+
+push()
+{
+
+	echo "This is the first parameter value" $1
+
+	cd $dir
+
+	echo "This is the parent directory" $(pwd)
+
+	cd $1
+
+	echo "This is the current directory" $(pwd)
+
+	git push origin master
+
+}
+
+push "../app"
+
+push "../app-ca2"
+
+push "../app-cidadedecuritiba"
+
+push "../app-core"
+
+push "../app-veriwell"
+
+push "../design"
+
+push "../game"
+
+push "../nodeapp"
+
+push "../third"

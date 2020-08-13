@@ -1,0 +1,40 @@
+#!/bin/sh
+
+export dir=$(pwd)
+
+echo "This is the starting directory" $dir
+
+commit()
+{
+
+	echo "This is the first parameter value" $1
+
+	cd $dir
+
+	echo "This is the parent directory" $(pwd)
+
+	cd $1
+
+	echo "This is the current directory" $(pwd)
+
+	git commit
+
+}
+
+commit "../app"
+
+commit "../app-ca2"
+
+commit "../app-cidadedecuritiba"
+
+commit "../app-core"
+
+commit "../app-veriwell"
+
+commit "../design"
+
+commit "../game"
+
+commit "../nodeapp"
+
+commit "../third"
