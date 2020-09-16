@@ -1,0 +1,11 @@
+<3ThomasBS [THE MAN] - Thomas - KAEM.dk, Mummi and bilbo!!
+
+Ben financial and management contribution!!
+
+Obinx.co.uk (LiamGreen), zerratar, JPCdk, SiegeGames and lanvandance (epryka, Vova) twitch streaming contribution!!
+
+Lilcold_ and Matti (Realomo) twitch chat contribution!!
+
+Raspberry PI 3B+ (arm64 4 cores) running Raspbian (Debian Linux)
+
+from Raspi, remotely (VNC) from Ubuntu 19.04 at bilbo at veriverse!!
