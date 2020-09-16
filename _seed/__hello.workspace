@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="basic">
+		<Project filename="../../app/acme/acme.cbp" />
+		<Project filename="../../app/apex/apex.cbp">
+			<Depends filename="../../app/acme/acme.cbp" />
+		</Project>
+		<Project filename="../../console/helloearth/helloearth.cbp">
+			<Depends filename="../../app/apex/apex.cbp" />
+		</Project>
+	</Workspace>
+</CodeBlocks_workspace_file>
